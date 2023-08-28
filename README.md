@@ -1,21 +1,27 @@
-# react-native-unique-device-id-android
+# rn_unique_device_id
 
 This module can get you the unique device id for the android
 
 ## Installation
 
 ```sh
-npm install react-native-unique-device-id-android
+npm install rn_unique_device_id
+```
+
+or 
+
+```sh
+yarn add rn_unique_device_id
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native-unique-device-id-android';
+import UniqueDeviceId from "rn_unique_device_id";
 
 // ...
 
-const result = await multiply(3, 7);
+const uniqueId = UniqueDeviceId.getDeviceId(),
 ```
 
 ## Contributing
